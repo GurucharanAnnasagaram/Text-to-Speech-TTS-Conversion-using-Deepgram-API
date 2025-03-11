@@ -1,0 +1,26 @@
+Key Features:
+Deepgram API Integration
+
+Uses Deepgram’s aura-asteria-en model for high-quality text-to-speech synthesis.
+Outputs speech in linear16 encoding (a widely used audio format).
+Secure API Key Handling
+
+Loads the Deepgram API key from a .env file to ensure security.
+Speech Generation & File Saving
+
+Converts input text to speech.
+Saves the generated audio as a .wav file (speech.wav).
+Error Handling
+
+Implements a try-except block to catch and print any errors.
+Command-Line Execution
+
+Can be run as a standalone script (if __name__ == "__main__":).
+Technologies Used:
+Deepgram API – For AI-driven text-to-speech synthesis.
+Python – For scripting and automation.
+Dotenv – For securely managing API keys.
+Use Cases:
+Voice Assistants – Convert AI-generated responses to speech.
+Audiobooks & Podcasts – Automatically generate narrated content.
+Accessibility Tools – Help visually impaired users by converting text to speech.
